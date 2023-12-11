@@ -47,12 +47,12 @@ background-color: transparent;
 }
 
 .my-inp{
-  @apply block w-full p-3 bg-[#081229] text-slate-200 placeholder:text-slate-600 shadow-inner shadow-[#e74d3c39] border-none rounded focus:outline-none
+  @apply block w-full p-3 bg-[#081229] text-slate-200 placeholder:text-slate-600 shadow-inner shadow-[#15EBD1] border-none rounded focus:outline-none
 }
 
 .cmn-btn-one{
   @apply bg-[#1F756A] px-5 py-2 hover:bg-[#15EBD1] rounded shadow-lg shadow-[#1F756A] text-slate-50 font-bold
 }
 .cmn-btn-one-outline{
-  @apply  text-[#e74c3c] border-2 border-[#e74c3c] hover:bg-[#e74c3c] hover:text-white transition px-5 py-2 rounded font-bold
+  @apply  text-[#15EBD1] border-2 border-[#15EBD1] hover:bg-[#1F756A] hover:text-white transition px-5 py-2 rounded font-bold
 }

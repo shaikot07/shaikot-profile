@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Layout from './LayOut/Layout.jsx';
 import HomePage from './Component/HomePage/HomePage.jsx';
+import ProjectDatiles from './Component/ProjectDatiles/ProjectDatiles.jsx';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path:'/',
         element:<HomePage></HomePage>
       },
+      {
+        path: '/project/:id',
+        element: <ProjectDatiles></ProjectDatiles>
+      }
     ]
   },
 ]);

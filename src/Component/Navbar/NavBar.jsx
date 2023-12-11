@@ -58,8 +58,8 @@ const NavBar = () => {
                               animate="visible"
                               transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
                           >
-                              {/* <Link className="text-xl" to={'/'}><img src={logo} className="w-10 h-auto" alt="" /></Link> */}
-                              <Link to='/'>LOGO</Link>
+                              <Link className="text-xl" to={'/'}><img src="https://i.ibb.co/tPB8G91/logo.png" className="w-10 h-auto" alt="" /></Link>
+                              {/* <Link to='/'>LOGO</Link> */}
                           </motion.div>
       
       
@@ -80,7 +80,9 @@ const NavBar = () => {
                               animate="visible"
                               transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
                           >
-                              <Link to={'https://drive.google.com/file/d/1LE_UNmr0u0spqej3QxYeNkNXtryQBo8f/view?usp=drive_link'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
+                              <Link to={'https://drive.google.com/file/d/10IzzNt-KaTGUlNrw-PgZdZOt1yMJv0S0/view?usp=sharing'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
+                              
+                              
                           </motion.div>
       
                       </div>
