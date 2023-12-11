@@ -1,0 +1,30 @@
+[
+    {
+        "_id": 1,
+        "projectName": "Spice of Life",
+        "liveLink": "https://spice-of-life-48f62.web.app/",
+        "projectImg": "https://i.ibb.co/tBDHhk6/spice-Of-Life.png",
+        "projectBanner": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZnxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "projectOverview": "Welcome to our recipe website, a platform where you can discover a wide variety of recipes from top chefs, and contribute your own recipes by signing up or signing in. This project was developed using React for the client-side, ensuring an interactive and user-friendly experience. To handle the server-side operations, we utilized Firebase and Express, leveraging their functionalities to create a seamless and efficient platform. Whether you're looking for culinary inspiration or eager to share your own delicious creations, our recipe website is here to satisfy your culinary desires.",
+        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
+      },
+    {
+        "_id": 2,
+        "projectName": "Edutainment Toys",
+        "liveLink": "https://edutainment-toys-ph.web.app/",
+        "projectImg": "https://i.ibb.co/SPvgLfh/edutainment-Toys.png",
+        "projectBanner": "https://images.unsplash.com/photo-1685358279653-868c0b99fe6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGVkdWNhdGlvbiUyMHRveXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+        "projectOverview": "Welcome to Edutainment Toy, an responsive educational toy website where users can explore, contribute, and engage with a wide range of educational toys. This website is built using React and Tailwind for the frontend, providing a visually appealing and user-friendly experience. For authentication, Firebase is utilized to ensure seamless and secure user login. On the backend, Express.js, a popular Node.js framework, is employed to handle the server-side operations, ensuring efficient and reliable functionality. MongoDB is integrated as the database, enabling effective storage and retrieval of toy-related data. One of the exciting features of this website is that it allows anyone to register and post their own toys, promoting a collaborative and interactive community. Join us and become a part of this educational toy journey!",
+        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
+      },
+    {
+        "_id": 3,
+        "projectName": "WizCraft Academy",
+        "liveLink": "https://wizcraft-academy.web.app/",
+        "projectImg": "https://i.ibb.co/0qq4SrZ/wiz-Craft-academy.png",
+        "projectBanner": "https://img.freepik.com/free-vector/magic-school-classroom-night_107791-3187.jpg?w=1380&t=st=1686716218~exp=1686716818~hmac=1e8dea0b734aae84088b87bf2d20b05e9ae7c0d0b5c5743c80a7cd8aaa8c6ccd",
+        "projectOverview": "Welcome to the Magic School Summer Camp website! This React-based project is designed to provide an exceptional summer camp experience for students. With a seamless integration of React, Express, MongoDB, Tailwind CSS, and Firebase, our platform offers personalized dashboards for students, instructors, and administrators. Enroll in captivating activities, access student, instructor, and admin dashboards, and embark on an unforgettable journey of learning and fun. Join us and let the magic of summer camp ignite your imagination!",
+        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
+      }
+      
+]

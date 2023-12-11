@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-image: linear-gradient( 111.4deg,  rgba(8,21,39,1) 6.5%, rgba(10,25,47,1) 93.2% );
+  background: #021823;
+  background: #081229;
+  color: #fff;
+  min-height: 100vh;
+}
+
+
+*{
+  font-family: 'Monda', sans-serif;
+}
+h1,h2,h3,h4,h5,h6, button{
+  font-family: 'Montserrat', sans-serif;    
+}
+
+
+/* Hide the scrollbar for webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+width: 0.5em; /* Adjust the width as needed */
+background-color: transparent; /* Set the background color to match the container */
+}
+
+/* Hide the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+background-color: transparent;
+}
+
+/* Hide the scrollbar track */
+::-webkit-scrollbar-track {
+background-color: transparent;
+}
+
+
+
+.my-container{
+  @apply max-w-7xl mx-4 md:mx-6 lg:mx-10 xl:mx-auto
+}
+
+.my-inp{
+  @apply block w-full p-3 bg-[#081229] text-slate-200 placeholder:text-slate-600 shadow-inner shadow-[#e74d3c39] border-none rounded focus:outline-none
+}
+
+.cmn-btn-one{
+  @apply bg-[#1F756A] px-5 py-2 hover:bg-[#15EBD1] rounded shadow-lg shadow-[#1F756A] text-slate-50 font-bold
+}
+.cmn-btn-one-outline{
+  @apply  text-[#e74c3c] border-2 border-[#e74c3c] hover:bg-[#e74c3c] hover:text-white transition px-5 py-2 rounded font-bold
+}
