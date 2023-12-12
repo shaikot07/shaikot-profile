@@ -5,10 +5,12 @@ import CarHub from '../../../assets/img/S-03.png'
 import { motion } from "framer-motion";
 import Section_title from '../../../helping_component/section_title';
 import { Link } from 'react-router-dom';
+import Design from '../../../helping_component/Design';
 
 const Projects = () => {
       return (
-            <div className='py-20 mb-32 my-container' id='projects'>
+            <div className='py-20 mb-12 my-container' id='projects'>
+                {/* <Design></Design> */}
            <Section_title title={'projects'} subtitle={'Here you will find some of the personal and  projects that I created with each project containing its own case study'}></Section_title>
             <div className='space-y-36 mt-10'>
 
@@ -45,16 +47,17 @@ const Projects = () => {
                     transition={{ type: 'spring', stiffness: 70 }}
                 >
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                        <div>
-                            <img src={fitnessHome} alt="" className='pointer-events-none' />
-                        </div>
-                        <div className='flex items-center justify-center'>
+                    <div className='flex items-center justify-center'>
                             <div className='space-y-4'>
                                 <h2 className='font-bold text-4xl'>Fitnes HomE</h2>
                                 <p className='!mb-4 leading-8'>Welcome to Fitnes Home, an responsive gym website where users can Explore gym features, contribute, and engage with a fitness home.</p>
                                 <Link to={`/project/${2}`}><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one'> Case Study </motion.button></Link>
                             </div>
                         </div>
+                        <div>
+                            <img src={fitnessHome} alt="" className='pointer-events-none' />
+                        </div>
+                        
                     </div>
                 </motion.div>
 

@@ -61,7 +61,7 @@ const Banner = () => {
                         whileInView="visible"
                         transition={{ delay: 0.8, type: "spring", stiffness: 70 }}
                     >
-                        <Link to={'https://drive.google.com/file/d/1LE_UNmr0u0spqej3QxYeNkNXtryQBo8f/view?usp=drive_link'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
+                        <Link to={'https://drive.google.com/uc?export=download&id=10IzzNt-KaTGUlNrw-PgZdZOt1yMJv0S0'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
                     </motion.div>
 
                 </div>

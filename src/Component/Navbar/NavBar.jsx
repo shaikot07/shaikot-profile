@@ -80,7 +80,7 @@ const NavBar = () => {
                               animate="visible"
                               transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
                           >
-                              <Link to={'https://drive.google.com/file/d/10IzzNt-KaTGUlNrw-PgZdZOt1yMJv0S0/view?usp=sharing'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
+                              <Link to={'https://drive.google.com/uc?export=download&id=10IzzNt-KaTGUlNrw-PgZdZOt1yMJv0S0'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
                               
                               
                           </motion.div>

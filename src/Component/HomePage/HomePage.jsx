@@ -6,14 +6,16 @@ import Projects from './Projects/Projects';
 import Contact from './contact/Contact';
 import Test from './contact/test';
 
+
 const HomePage = () => {
       return (
             <div>
+                  
                   <Banner></Banner>
                   <About></About>
                   <Skills></Skills>
                   <Projects></Projects>
-                  <Contact></Contact>
+                  {/* <Contact></Contact> */}
                   <Test></Test>
             </div>
       );
