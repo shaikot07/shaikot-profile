@@ -37,7 +37,7 @@ const Skills = () => {
 
                                 {
                                     tabPanel.map((skill, ind) =>
-                                        <div key={ind} className='bg-[#021823] text-white py-6 px-8 rounded relative overflow-x-hidden z-20 shadow-inner shadow-[#15EBD1]'>
+                                        <div key={ind} className='bg-[#0cbca3] text-[#081229] py-6 px-8 rounded relative overflow-x-hidden z-20 shadow-inner shadow-[#15EBD1]'>
                                             {skill.tech}
                                             <motion.div
                                                 variants={{
@@ -47,7 +47,7 @@ const Skills = () => {
                                                 initial='hidden'
                                                 whileInView='visible'
                                                 transition={{ delay:.3, type: "spring", stiffness: 45 }}
-                                                className={`absolute top-0 left-0 h-full -z-10 shadow bg-[#1F756A]`} >
+                                                className={`absolute top-0 left-0 h-full -z-10 shadow bg-[#11F5D4]`} >
 
                                              </motion.div>
                                         </div>

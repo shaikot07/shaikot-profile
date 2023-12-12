@@ -8,8 +8,8 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-image: linear-gradient( 111.4deg,  rgba(8,21,39,1) 6.5%, rgba(10,25,47,1) 93.2% );
-  background: #021823;
+  background-image: linear-gradient( 111.4deg,  rgba(8,21,39,1) 6.5%, rgb(6, 14, 27) 93.2% );
+  /* background: #1f1f1f; */
   background: #081229;
   color: #fff;
   min-height: 100vh;
@@ -51,7 +51,7 @@ background-color: transparent;
 }
 
 .cmn-btn-one{
-  @apply bg-[#1F756A] px-5 py-2 hover:bg-[#15EBD1] rounded shadow-lg shadow-[#1F756A] text-slate-50 font-bold
+  @apply bg-[#11f5d4] px-5 py-2 hover:bg-[#0cbca3] rounded  text-slate-50 font-bold
 }
 .cmn-btn-one-outline{
   @apply  text-[#15EBD1] border-2 border-[#15EBD1] hover:bg-[#1F756A] hover:text-white transition px-5 py-2 rounded font-bold

@@ -28,7 +28,7 @@ const Test = () => {
 
     return (
 
-        <div className="my-container py-14" id="contact">
+        <div className="my-container overflow-x-hidden py-14" id="contact">
             <Section_title title={'Reach Out'}
                 subtitle={'Where Your Voice Matters'}></Section_title>
             <form ref={form} onSubmit={sendEmail} className='space-y-4 my-6'>

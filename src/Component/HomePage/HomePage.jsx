@@ -9,7 +9,7 @@ import Test from './contact/test';
 
 const HomePage = () => {
       return (
-            <div>
+            <div className='overflow-x-hidden'>
                   
                   <Banner></Banner>
                   <About></About>
