@@ -1,10 +1,11 @@
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import { motion } from "framer-motion";
 import { useState } from 'react';
-import Section_title from '../../../helping_component/section_title';
+import SectionTitle from '../../../helping_component/SectionTitle';
 
 
-const Skills = () => {
+
+const Skillss = () => {
 
       const [currTab, setCurrTab] = useState('Web')
     
@@ -16,7 +17,7 @@ const Skills = () => {
     const tabPanels = [Web, Tools, Others] // for tabPanel
       return (
             <div className='my-container py-14' id='skills'>
-            <Section_title title={'skills'} subtitle={'Cutting-Edge Web Development Expertise'}></Section_title>
+            <SectionTitle title={'skills'} subtitle={'Cutting-Edge Web Development Expertise'}></SectionTitle>
             <Tabs className={'mt-10'}>
 
                 <TabList className={'flex justify-center gap-12'}>
@@ -66,4 +67,4 @@ const Skills = () => {
       );
 };
 
-export default Skills;
+export default Skillss;

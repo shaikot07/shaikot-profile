@@ -1,17 +1,17 @@
-import React from 'react';
+
 import dailyPluse from '../../../assets/img/S-02.png'
 import fitnessHome from '../../../assets/img/S-01.png'
 import CarHub from '../../../assets/img/S-03.png'
 import { motion } from "framer-motion";
-import Section_title from '../../../helping_component/section_title';
 import { Link } from 'react-router-dom';
-import Design from '../../../helping_component/Design';
+import SectionTitle from '../../../helping_component/SectionTitle';
+
 
 const Projects = () => {
       return (
             <div className='py-20 mb-12 my-container' id='projects'>
                 {/* <Design></Design> */}
-           <Section_title title={'projects'} subtitle={'Here you will find some of the personal and  projects that I created with each project containing its own case study'}></Section_title>
+           <SectionTitle title={'projects'} subtitle={'Here you will find some of the personal and  projects that I created with each project containing its own case study'}></SectionTitle>
             <div className='space-y-36 mt-10'>
 
                 <motion.div

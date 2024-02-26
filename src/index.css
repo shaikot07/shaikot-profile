@@ -33,6 +33,8 @@ background-color: transparent; /* Set the background color to match the containe
 /* Hide the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
 background-color: transparent;
+/* background-color:#11F5D4; */
+
 }
 
 /* Hide the scrollbar track */

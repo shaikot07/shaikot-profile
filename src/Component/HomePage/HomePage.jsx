@@ -1,22 +1,21 @@
 
-import Banner from './Banner/Banner';
-import About from './About/About';
-import Skills from './skills/skills';
-import Projects from './Projects/Projects';
-import Contact from './contact/Contact';
-import Test from './contact/test';
+import About from "./About/About";
+import Banner from "./Banner/Banner";
+import Projects from "./Projects/Projects";
+import Test from "./contact/Test";
+import Skillss from "./skills/Skillss";
 
 
 const HomePage = () => {
       return (
             <div className='overflow-x-hidden'>
-                  
                   <Banner></Banner>
-                  <About></About>
-                  <Skills></Skills>
-                  <Projects></Projects>
-                  {/* <Contact></Contact> */}
-                  <Test></Test>
+                <About></About>
+                <Skillss></Skillss>
+                <Projects></Projects>
+                <Test></Test>
+                  
+                
             </div>
       );
 };

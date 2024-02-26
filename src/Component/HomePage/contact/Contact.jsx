@@ -5,10 +5,11 @@ import Section_title from "../../../helping_component/section_title";
 
 
 
+
 const Contact = () => {
 
 
-      const { register, handleSubmit, watch, formState: { errors } } = useForm();
+      const { register, handleSubmit,  formState: { errors } } = useForm();
       const handleSubmitFunc = form => {
             console.log(form);
             toast.success('Message sent successfully!', {

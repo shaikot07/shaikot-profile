@@ -20,7 +20,7 @@
     {
         "_id": 3,
         "projectName": " Car Hub ",
-        "liveLink": " https://assignment-10-clint-side.netlify.app/",
+        "liveLink": "https://assignment-10-clint-side.netlify.app/",
         "projectImg": "https://i.ibb.co/RzwrZcn/S-03.png",
         "projectBanner": "https://i.ibb.co/pzSJJhv/istockphoto-1372734450-1024x1024.jpg",
         "projectOverview": "Welcome to Car Hub, your premier destination for an immersive automotive experience. Our website, powered by cutting-edge technology, was meticulously crafted using React on the client-side, ensuring a dynamic, interactive, and user-friendly interface for car enthusiasts. Behind the scenes, we leverage the robust functionalities of Firebase and Express to handle server-side operations, creating a seamless and efficient platform. Explore our extensive inventory, discover the latest models, and engage with a community of automotive enthusiasts. Whether you're a buyer, seller, or simply passionate about cars, Car Hub is designed to elevate your journey in the world of automobiles!",

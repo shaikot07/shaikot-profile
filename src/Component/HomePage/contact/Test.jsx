@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Section_title from '../../../helping_component/section_title';
 import Swal from 'sweetalert2';
+import SectionTitle from '../../../helping_component/SectionTitle';
 
 const Test = () => {
 
@@ -20,7 +20,9 @@ const Test = () => {
                     title: "Message send successfully",
                     showConfirmButton: false,
                     timer: 1500
-                  })
+                }).then(() => {
+                    form.current.reset(); // Reset the form after success message
+                });
             }, (error) => {
                 console.log(error.text);
             });
@@ -29,8 +31,8 @@ const Test = () => {
     return (
 
         <div className="my-container overflow-x-hidden py-14" id="contact">
-            <Section_title title={'Reach Out'}
-                subtitle={'Where Your Voice Matters'}></Section_title>
+            <SectionTitle title={'Reach Out'}
+                subtitle={'Where Your Voice Matters'}></SectionTitle>
             <form ref={form} onSubmit={sendEmail} className='space-y-4 my-6'>
                 <div className='space-y-2'>
                     <label className='text-slate-300 font-semibold'>Name</label>
@@ -46,7 +48,7 @@ const Test = () => {
                 </div>
                 <button type='submit' className='cmn-btn-one'>Send</button>
             </form>
-            
+
         </div>
 
     );
