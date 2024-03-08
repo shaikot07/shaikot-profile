@@ -1,7 +1,8 @@
 
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
+import { FaFileDownload } from 'react-icons/fa';
 
 
 const NavBar_2 = () => {
@@ -61,7 +62,7 @@ const NavBar_2 = () => {
                                     <Link className="text-xl" to={'/'}><img src="https://i.ibb.co/tPB8G91/logo.png" className="w-10 h-auto" alt="" /></Link>
                                     {/* <Link to='/'>LOGO</Link> */}
                               </motion.div>
-                              
+
                         </div>
                         <div className="navbar-center hidden lg:flex">
                               <ul className="menu menu-horizontal px-1">
@@ -69,18 +70,18 @@ const NavBar_2 = () => {
                               </ul>
                         </div>
                         <div className="navbar-end ">
-                        <motion.div variants={{
-                            hidden: { opacity: 0, x: 75 },
-                            visible: { opacity: 1, x: 0 }
-                        }}
-                            initial="hidden"
-                            animate="visible"
-                            transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
-                        >
-                            <Link to={'https://drive.google.com/uc?export=download&id=1OSAVTCJpPWk0nzlBNCFatPHA7BLV5f6e'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume </motion.button> </Link>
+                              <motion.div variants={{
+                                    hidden: { opacity: 0, x: 75 },
+                                    visible: { opacity: 1, x: 0 }
+                              }}
+                                    initial="hidden"
+                                    animate="visible"
+                                    transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
+                              >
+                                    <Link to={'https://drive.google.com/uc?export=download&id=1OSAVTCJpPWk0nzlBNCFatPHA7BLV5f6e'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume <FaFileDownload className='inline' /></motion.button> </Link>
 
 
-                        </motion.div>
+                              </motion.div>
                         </div>
                   </div>
             </motion.div>
