@@ -38,13 +38,13 @@ const Banner = () => {
                             <TypeAnimation
                                 sequence={[
                                     //  substring at the start will only be typed once, initially
-                                    'A passionate MERN Stack Developer',
+                                    'A Passionate MERN Stack Developer',
                                     1500,
-                                    'A passionate Frontend Developer',
+                                    'A Passionate Frontend Developer',
                                     1500,
-                                    'A passionate Full-Stack Developer',
+                                    'A Passionate Full-Stack Developer',
                                     1500,
-                                    'A passionate Web Developer',
+                                    'A Passionate Web Developer',
                                     1500,
                                     
                                 ]}
