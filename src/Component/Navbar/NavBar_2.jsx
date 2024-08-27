@@ -89,3 +89,6 @@ const NavBar_2 = () => {
 };
 
 export default NavBar_2;
+
+// developer note: 
+// nav bare ai pages ta render hosche 
