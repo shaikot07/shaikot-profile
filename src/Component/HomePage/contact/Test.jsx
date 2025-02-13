@@ -10,12 +10,12 @@ const Test = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         console.log(e);
-        emailjs.sendForm('service_w1ylpqe', 'template_8pxe57h', form.current, 'EP3hBlHhMwS79VTB2')
+        emailjs.sendForm('service_w1ylpqe', 'template_8pxe57h', form.current, 'strxoYY3V5-wTEJON')
             //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
-                    position: "top-end",
+                    position: "top-end", 
                     icon: "success",
                     title: "Message send successfully",
                     showConfirmButton: false,

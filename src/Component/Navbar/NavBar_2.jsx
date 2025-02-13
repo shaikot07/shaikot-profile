@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
 import { FaFileDownload } from 'react-icons/fa';
-
+import logo from '../../assets/logo.png'
 
 const NavBar_2 = () => {
 
@@ -59,7 +59,7 @@ const NavBar_2 = () => {
                                     animate="visible"
                                     transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
                               >
-                                    <Link className="text-xl" to={'/'}><img src="https://i.ibb.co/tPB8G91/logo.png" className="w-10 h-auto" alt="" /></Link>
+                                    <Link className="text-xl" to={'/'}><img src={logo} className="w-10 h-auto" alt="" /></Link>
                                     {/* <Link to='/'>LOGO</Link> */}
                               </motion.div>
 
