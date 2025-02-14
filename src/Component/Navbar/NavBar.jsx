@@ -27,6 +27,7 @@ const NavBar = () => {
         <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#skills">Skills</a></li>
         <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#projects">Projects</a></li>
         <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#contact">Contact</a></li>
+        <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#contact">Contact</a></li>
 
     </>
     return (
