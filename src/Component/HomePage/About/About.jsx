@@ -33,7 +33,7 @@ const About = () => {
                          Looking to Establish Your Online Presence in Today s Tech-Empowered Era? Harness the Potential of Technology at Your Fingertips!
                         <br />
                         <br />
-                        Proficient in React, Tailwind, and Bootstrap, I specialize in crafting immersive frontend experiences. Leveraging Firebase ensures a smooth user authentication process. Employing Express JS, I engineer resilient backend solutions, and seamless MongoDB integration facilitates efficient database management. Let s transform your concepts into reality using state-of-the-art technology.
+                        Proficient in React, Next.js, TypeScript, and Tailwind, I specialize in crafting immersive frontend experiences. Leveraging Firebase ensures a smooth user authentication process. Employing Express JS and Node.js, I engineer resilient backend solutions, and seamless MongoDB integration facilitates efficient database management. Let s transform your concepts into reality using state-of-the-art technology.
                         <br />
                         <br />
                         Why delay? Take the plunge and connect with me to witness the enchantment firsthand. Together, we will breathe life into your vision within the digital landscape!
