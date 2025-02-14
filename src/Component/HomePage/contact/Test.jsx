@@ -25,6 +25,13 @@ const Test = () => {
                 });
             }, (error) => {
                 console.log(error.text);
+                Swal.fire({
+                    position: "top-end",
+                    icon: "error",
+                    title: "Error sending message",
+                    text: error.text || "Something went wrong. Please try again!",
+                    showConfirmButton: true
+                });
             });
     };
 
