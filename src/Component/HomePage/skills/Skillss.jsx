@@ -11,7 +11,7 @@ const Skillss = () => {
     
 
     const Web = [ { tech: 'Javascript', range: '70' }, { tech: 'React', range: '90' }, { tech: 'Next.js', range: '70' },{ tech: 'TypeScript', range: '80' }, { tech: 'Firebase', range: '45' }, { tech: 'Express JS', range: '40' },{ tech: 'MongoDB', range: '40' },{ tech: 'HTML', range: '90' }, { tech: 'CSS', range: '85' }, { tech: 'Tailwind', range: '95' }, { tech: 'Bootstrap', range: '45' },]
-    const Tools = [{ tech: 'VS Code', range: '90' }, { tech: 'Figma', range: '80' }, { tech: 'Git', range: '65' }, { tech: 'Postman', range: '75' }, { tech: 'Photoshop', range: '35' }]
+    const Tools = [{ tech: 'VS Code', range: '90' }, { tech: 'mongo DB Compass', range: '80' }, { tech: 'Git', range: '65' }, { tech: 'Postman', range: '75' }, { tech: 'Figma', range: '80' }, { tech: 'Photo shop', range: '35' }]
     const Others = [{ tech: 'Team work', range: '98' }, { tech: 'Time Management', range: '95' }, { tech: 'Self Motivation', range: '100' }, { tech: 'Problem Solving', range: '70' }]
     const tabs = ['Web', "Tools", "Others"] //for tab button
     const tabPanels = [Web, Tools, Others] // for tabPanel
