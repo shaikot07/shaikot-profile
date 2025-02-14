@@ -16,7 +16,7 @@ const About = () => {
                     <div className='text-center'>
                         <h2 className='font-bold inline-block text-3xl mb-6 relative before:h-px before:w-10 before:bg-[#15EBD1] before:absolute before:-left-16 before:top-5  after:h-px after:w-10 after:bg-[#15EBD1] after:absolute after:-right-16 after:top-5'>A few words about me</h2>
                     </div>
-                    <p className='text-slate-300 leading-8'>Hello, Iam Saiful Islam Shaikot,a passionate  web developer based in Rangpur, Bangladesh. With a strong focus on  JavaScript, I take pleasure in crafting innovative web applications.
+                    <p className='text-slate-300 leading-8'>Hello, I am Saiful Islam Shaikot. a passionate  web developer based in Rangpur, Bangladesh. With a strong focus on  JavaScript, I take pleasure in crafting innovative web applications.
                         <br />
                         <br />
                         My quest for knowledge is unending, and I eagerly seize opportunities to delve into and master emerging technologies. My purpose is to elevate the realm of technology.
