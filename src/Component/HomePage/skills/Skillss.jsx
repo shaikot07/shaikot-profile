@@ -3,12 +3,9 @@
 // import { useState } from 'react';
 // import SectionTitle from '../../../helping_component/SectionTitle';
 
-
-
 // const Skillss = () => {
 
 //       const [currTab, setCurrTab] = useState('Web')
-    
 
 //     const Web = [ { tech: 'Javascript', range: '70' }, { tech: 'React', range: '90' }, { tech: 'Next.js', range: '70' },{ tech: 'TypeScript', range: '80' }, { tech: 'Firebase', range: '45' }, { tech: 'Express JS', range: '40' },{ tech: 'MongoDB', range: '40' },{ tech: 'HTML', range: '90' }, { tech: 'CSS', range: '85' }, { tech: 'Tailwind', range: '95' }, { tech: 'Bootstrap', range: '45' },]
 //     const Tools = [{ tech: 'VS Code', range: '90' }, { tech: 'mongo DB Compass', range: '80' }, { tech: 'Git And Git Collaboration', range: '65' }, { tech: 'Postman', range: '75' }, { tech: 'Figma', range: '80' }, { tech: 'Photo shop', range: '35' }]
@@ -55,7 +52,6 @@
 //                                     )
 //                                 }
 
-
 //                             </div>
 //                         </TabPanel>
 //                     })}
@@ -69,17 +65,15 @@
 
 // export default Skillss;
 
-
-
-// ------------------new----------------- 
-// import image 
+// ------------------new-----------------
+// import image
 import js from "../../../assets/js.png";
 import typeScript from "../../../assets/typeScript.png";
 import reactl from "../../../assets/reactl.png";
 import redux from "../../../assets/redux.png";
 import nextjs from "../../../assets/nextjs.png";
 import node from "../../../assets/node.png";
-import express from "../../../assets/express-js.png";
+import express from "../../../assets/expressjs.png";
 import tailwind from "../../../assets/tailwind.png";
 import mongodbLogo from "../../../assets/mongodb-logo.png";
 import mongoose from "../../../assets/mongoose.png";
@@ -93,33 +87,32 @@ import postman from "../../../assets/postman.png";
 import mongodbCompass from "../../../assets/mongodb-compass.png";
 import figma from "../../../assets/figma.png";
 
-
-import SectionTitle from '../../../helping_component/SectionTitle';
+import SectionTitle from "../../../helping_component/SectionTitle";
 
 const Skillss = () => {
-    const skills = [
-        { src: js, alt: "javascript" },
-        { src: typeScript, alt: "typeScript" },
-        { src: reactl, alt: "React" },
-        { src: redux, alt: "Redux" },
-        { src: nextjs, alt: "next.js" },
-        { src: node, alt: "Node.js" },
-        { src: express, alt: "Express" },
-        { src: tailwind, alt: "Tailwind" },
-        { src: mongodbLogo, alt: "Mongodb" },
-        { src: mongoose, alt: "Mongoose" },
-        { src: html5, alt: "Html" },
-        { src: css, alt: "Css" },
-      ];
-      
-      const tools = [
-        { src: vscode, alt: "VS Code" },
-        { src: git, alt: "git" },
-        { src: github, alt: "github" },
-        { src: postman, alt: "postman" },
-        { src: mongodbCompass, alt: "MongoDB Compass" },
-        { src: figma, alt: "figma" },
-      ];
+  const skills = [
+    { src: js, alt: "javascript" },
+    { src: typeScript, alt: "typeScript" },
+    { src: reactl, alt: "React" },
+    { src: redux, alt: "Redux" },
+    { src: nextjs, alt: "next.js" },
+    { src: node, alt: "Node.js" },
+    { src: express, alt: "Express" },
+    { src: tailwind, alt: "Tailwind" },
+    { src: mongodbLogo, alt: "Mongodb" },
+    { src: mongoose, alt: "Mongoose" },
+    { src: html5, alt: "Html" },
+    { src: css, alt: "Css" },
+  ];
+
+  const tools = [
+    { src: vscode, alt: "VS Code" },
+    { src: github, alt: "github" },
+    { src: git, alt: "git" },
+    { src: postman, alt: "postman" },
+    { src: mongodbCompass, alt: "MongoDB Compass" },
+    { src: figma, alt: "figma" },
+  ];
   return (
     <div className="my-container py-14" id="skills">
       <SectionTitle
@@ -127,30 +120,43 @@ const Skillss = () => {
         subtitle={"Cutting-Edge Web Development Expertise"}
       ></SectionTitle>
       <div>
-        
         <div className=" text-white py-10 px-5 lg:px-20">
           {/* Skills Section */}
           <div className="text-center mb-10">
             {/* <h2 className="text-2xl font-semibold">Skills</h2> */}
           </div>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-center items-center">
-            {skills.map((skill) => (
-              <img
-                key={skill.alt}
-                src={skill.src}
-                alt={skill.alt}
-                // width={84}
-                // height={84}
-                className="mx-auto rounded-full h-[100px] w-[100px] object-contain  "
-              />
-            ))}
+        
+          <div className="flex flex-col items-center gap-20">
+            {/* First Line (First 7 images) */}
+            <div className="flex flex-wrap justify-center gap-8">
+              {skills.slice(0, 7).map((skill) => (
+                <img
+                  key={skill.alt}
+                  src={skill.src}
+                  alt={skill.alt}
+                  className="h-[80px] w-[80px] object-contain rounded-full"
+                />
+              ))}
+            </div>
+
+            {/* Second Line (Remaining images) */}
+            <div className="flex flex-wrap justify-center gap-8">
+              {skills.slice(7).map((skill) => (
+                <img
+                  key={skill.alt}
+                  src={skill.src}
+                  alt={skill.alt}
+                  className="h-[80px] w-[80px] object-contain rounded-full"
+                />
+              ))}
+            </div>
           </div>
 
           {/* Tools Section */}
           <div className="text-center mt-16 mb-6">
             {/* <h2 className="text-2xl mt-8 font-semibold">Tools </h2> */}
           </div>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 justify-center ">
+          {/* <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 justify-center ">
             {tools.map((tool) => (
               <img
                 key={tool.alt}
@@ -158,10 +164,34 @@ const Skillss = () => {
                 alt={tool.alt}
                 // width={64}
                 // height={64}
-                className="mx-auto h-[100px] w-[100px] object-contain "
-                
+                className="mx-auto h-[80px] w-[80px] object-contain "
               />
             ))}
+          </div> */}
+          <div className="flex flex-col items-center gap-10">
+            {/* First Line (First 4 images) */}
+            <div className="flex flex-wrap justify-center gap-6">
+              {tools.slice(0, 4).map((tool) => (
+                <img
+                  key={tool.alt}
+                  src={tool.src}
+                  alt={tool.alt}
+                  className="h-[80px] w-[80px] object-contain mx-auto"
+                />
+              ))}
+            </div>
+
+            {/* Second Line (Remaining images) */}
+            <div className="flex flex-wrap justify-center gap-6">
+              {tools.slice(4).map((tool) => (
+                <img
+                  key={tool.alt}
+                  src={tool.src}
+                  alt={tool.alt}
+                  className="h-[80px] w-[80px] object-contain mx-auto"
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
