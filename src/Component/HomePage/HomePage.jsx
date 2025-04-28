@@ -12,6 +12,7 @@ const HomePage = () => {
                   <Banner></Banner>
                 <About></About>
                 <Skillss></Skillss>
+                
                 <Projects></Projects>
                 <Test></Test>
                   
