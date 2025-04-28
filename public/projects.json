@@ -1,39 +1,61 @@
 [
-    {
-        "_id": 1,
-        "projectName": "Daily Pulse Newspaper",
-        "liveLink": "https://assignment-12-cb947.web.app/",
-        "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
-        "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
-        "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
-        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
-      },
-    {
-        "_id": 2,
-        "projectName": "Daily Pulse Newspaper",
-        "liveLink": "https://assignment-12-cb947.web.app/",
-        "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
-        "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
-        "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
-        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
-      },
-    {
-        "_id": 3,
-        "projectName": "Fitness Home ",
-        "liveLink": "https://assignment-11-clint-side-8097e.web.app/",
-        "projectImg": "https://i.ibb.co/dppzW63/S-01.png",
-        "projectBanner": "https://i.ibb.co/ygB2Wn2/istockphoto-1162162438-1024x1024.jpg",
-        "projectOverview": "Welcome to Fitness Home, your ultimate online destination for a transformative fitness experience. Our website, meticulously developed using React for the client-side, guarantees an engaging, interactive, and user-friendly interface for fitness enthusiasts. To ensure a seamless and efficient platform, we've employed Firebase and Express for server-side operations, leveraging their robust functionalities. Explore our diverse range of fitness programs, connect with expert trainers, and join a community passionate about health and wellness. Whether you're on a fitness journey, seeking expert guidance, or fostering a healthier lifestyle, Fitness Home is your virtual gateway to achieving your wellness goals",
-        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
-      },
-    {
-        "_id": 4,
-        "projectName": " Car Hub ",
-        "liveLink": "https://assignment-10-clint-side.netlify.app/",
-        "projectImg": "https://i.ibb.co/RzwrZcn/S-03.png",
-        "projectBanner": "https://i.ibb.co/pzSJJhv/istockphoto-1372734450-1024x1024.jpg",
-        "projectOverview": "Welcome to Car Hub, your premier destination for an immersive automotive experience. Our website, powered by cutting-edge technology, was meticulously crafted using React on the client-side, ensuring a dynamic, interactive, and user-friendly interface for car enthusiasts. Behind the scenes, we leverage the robust functionalities of Firebase and Express to handle server-side operations, creating a seamless and efficient platform. Explore our extensive inventory, discover the latest models, and engage with a community of automotive enthusiasts. Whether you're a buyer, seller, or simply passionate about cars, Car Hub is designed to elevate your journey in the world of automobiles!",
-        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
-      }
-      
+  {
+    "_id": 1,
+    "projectName": "Basa Khuji.com",
+    "liveLink": "https://basa-khuji-next-client.vercel.app/",
+    "clientRepo": "https://github.com/shaikot07/BasaKhuji-next-client",
+    "serverRepo":"https://github.com/shaikot07/Basakhuji-server",
+    "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+    "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
+    "projectOverview": "BashaKhuji.com is a complete, role-based rental housing platform designed to bridge the gap between tenants and landlords efficiently and securely. Built using Next.js, TypeScript, Node.js, and MongoDB, the platform delivers an optimized, scalable, and user-friendly experience tailored to each role — Tenant, Landlord, and Admin — through customized dashboards and powerful features. The website allows landlords to easily post detailed property listings, and tenants to search for rental houses using smart filters like location, rent, and number of bedrooms. Rental requests, approvals, and payments are streamlined in one system, enhancing the rental process for both parties. Once a rental request is approved by the landlord, a secure payment gateway ( ShurjoPay) is made available for the tenant to finalize the rental. Email notifications keep all users informed of critical updates in real-time. With its strong role-based authentication system using JWT and bcrypt for secure password storage, BashaKhuji.com ensures user data protection and access control across all modules. The application is optimized for high performance, SEO-friendly rendering, and is fully responsive across all devices. The backend is structured with RESTful APIs, making it scalable and easy to extend with new features in the future. Clean and modular code practices were followed to maintain clarity, reusability, and future growth. Overall, BashaKhuji.com delivers a professional-grade, end-to-end rental solution combining modern web development practices with a strong focus on usability, security, and performance.",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Firebase",
+      "Express.js",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "JWT (JSON Web Tokens)",
+      "bcrypt (password hashing)",
+
+      "ShurjoPay (Payment Gateway)"
+    ]
+  },
+  {
+    "_id": 2,
+    "projectName": "Bike shop",
+    "liveLink": "https://assignment-12-cb947.web.app/",
+    "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+    "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
+    "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Firebase",
+      "Express JS"
+    ]
+  },
+ 
+  {
+    "_id": 3,
+    "projectName": "Daily Pulse Newspaper",
+    "liveLink": "https://assignment-12-cb947.web.app/",
+    "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+    "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
+    "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Firebase",
+      "Express JS"
+    ]
+  }
 ]

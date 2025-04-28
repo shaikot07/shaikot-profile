@@ -1,7 +1,8 @@
 
 import dailyPluse from '../../../assets/img/S-02.png'
-import fitnessHome from '../../../assets/img/S-01.png'
-import CarHub from '../../../assets/img/S-03.png'
+import bashaKhuji from '../../../assets/img/S-01.png'
+// import bikeshop from '../../../assets/img/S-01.png'
+import bikeshop from '../../../assets/img/S-03.png'
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 import SectionTitle from '../../../helping_component/SectionTitle';
@@ -25,12 +26,12 @@ const Projects = () => {
                 >
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         <div>
-                            <img src={dailyPluse} alt="" className='pointer-events-none' />
+                            <img src={bashaKhuji} alt="" className='pointer-events-none' />
                         </div>
                         <div className='flex items-center justify-center'>
                             <div className='space-y-4'>
-                                <h2 className='font-bold text-4xl'>Daily Pulse Newspaper</h2>
-                                <p className='!mb-4 leading-8'>This is a Daily Pulse Newspaper website where you can find Daily news find jobs, read article, and sign up or sign in to more news Details. I used React for the client side and Firebase and Express for the server side in this project.</p>
+                                <h2 className='font-bold text-4xl'>Basa Khuji.com</h2>
+                                <p className='!mb-4 leading-8'>Basa Khuji.com – A role-based rental house solution built with TypeScript, Next.js, Node.js,express.js and MongoDB. It features separate dashboards for tenants, landlords, and admins, rental listings, search & filtering, rental requests, secure payments, and email notifications.</p>
                                 <Link to={`/project/${1}`}><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one'> Case Study </motion.button></Link>
                             </div>
                         </div>
@@ -49,13 +50,13 @@ const Projects = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     <div className='flex items-center justify-center'>
                             <div className='space-y-4'>
-                                <h2 className='font-bold text-4xl'>Fitnes HomE</h2>
+                                <h2 className='font-bold text-4xl'>Bike Shop</h2>
                                 <p className='!mb-4 leading-8'>Welcome to Fitnes Home, an responsive gym website where users can Explore gym features, contribute, and engage with a fitness home.</p>
                                 <Link to={`/project/${2}`}><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one'> Case Study </motion.button></Link>
                             </div>
                         </div>
                         <div>
-                            <img src={fitnessHome} alt="" className='pointer-events-none' />
+                            <img src={bikeshop} alt="" className='pointer-events-none' />
                         </div>
                         
                     </div>
@@ -73,7 +74,7 @@ const Projects = () => {
                 >
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                         <div>
-                            <img src={CarHub} alt="" className='pointer-events-none' />
+                            <img src={dailyPluse} alt="" className='pointer-events-none' />
                         </div>
                         <div className='flex items-center justify-center'>
                             <div className='space-y-4'>

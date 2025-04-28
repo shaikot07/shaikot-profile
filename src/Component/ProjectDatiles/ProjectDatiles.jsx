@@ -7,6 +7,7 @@ const ProjectDatiles = () => {
 
       const { id } = useParams()
       const [project, setProject] = useState({})
+      console.log(project);
       const [isLoading, setIsLoading] = useState(true)
 
 
@@ -53,10 +54,11 @@ const ProjectDatiles = () => {
                                     transition={{ delay: 0.8, type: "spring", stiffness: 70 }}
                               // transition={{ duration: 0.5, delay: 0.8 }}
                               >
-                                    <p>This page contains the case study of {project.projectName} Website which includes the Project Overview, Tools Used and Live Links to the official product.</p>
+                                    <p>This page contains the case study of <strong>{project.projectName}</strong> Website which includes the Project Overview, Tools Used and Live Links to the official product.</p>
 
                               </motion.div>
-                              <motion.div
+                             <div className="flex items-center justify-center gap-4">
+                             <motion.div
                                     variants={{
                                           hidden: { opacity: 0, y: 75 },
                                           visible: { opacity: 1, y: 0 }
@@ -68,6 +70,31 @@ const ProjectDatiles = () => {
                                     <Link to={project.liveLink} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one !mt-6'> Live Link </motion.button></Link>
 
                               </motion.div>
+                             <motion.div
+                                    variants={{
+                                          hidden: { opacity: 0, y: 75 },
+                                          visible: { opacity: 1, y: 0 }
+                                    }}
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    transition={{ delay: .9, type: "spring", stiffness: 70 }}
+                              >
+                                    <Link to={project.clientRepo} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one !mt-6'>  Client Repo </motion.button></Link>
+
+                              </motion.div>
+                             <motion.div
+                                    variants={{
+                                          hidden: { opacity: 0, y: 75 },
+                                          visible: { opacity: 1, y: 0 }
+                                    }}
+                                    initial="hidden"
+                                    whileInView="visible"
+                                    transition={{ delay: .9, type: "spring", stiffness: 70 }}
+                              >
+                                    <Link to={project.serverRepo} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one !mt-6'>  Server Repo </motion.button></Link>
+
+                              </motion.div>
+                             </div>
 
                         </div>
                   </div>
