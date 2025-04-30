@@ -4,9 +4,9 @@
     "projectName": "Basa Khuji.com",
     "liveLink": "https://basa-khuji-next-client.vercel.app/",
     "clientRepo": "https://github.com/shaikot07/BasaKhuji-next-client",
-    "serverRepo":"https://github.com/shaikot07/Basakhuji-server",
-    "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
-    "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
+    "serverRepo": "https://github.com/shaikot07/Basakhuji-server",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
     "projectOverview": "BashaKhuji.com is a complete, role-based rental housing platform designed to bridge the gap between tenants and landlords efficiently and securely. Built using Next.js, TypeScript, Node.js, and MongoDB, the platform delivers an optimized, scalable, and user-friendly experience tailored to each role — Tenant, Landlord, and Admin — through customized dashboards and powerful features. The website allows landlords to easily post detailed property listings, and tenants to search for rental houses using smart filters like location, rent, and number of bedrooms. Rental requests, approvals, and payments are streamlined in one system, enhancing the rental process for both parties. Once a rental request is approved by the landlord, a secure payment gateway ( ShurjoPay) is made available for the tenant to finalize the rental. Email notifications keep all users informed of critical updates in real-time. With its strong role-based authentication system using JWT and bcrypt for secure password storage, BashaKhuji.com ensures user data protection and access control across all modules. The application is optimized for high performance, SEO-friendly rendering, and is fully responsive across all devices. The backend is structured with RESTful APIs, making it scalable and easy to extend with new features in the future. Clean and modular code practices were followed to maintain clarity, reusability, and future growth. Overall, BashaKhuji.com delivers a professional-grade, end-to-end rental solution combining modern web development practices with a strong focus on usability, security, and performance.",
     "tools": [
       "HTML",
@@ -21,27 +21,30 @@
       "MongoDB",
       "JWT (JSON Web Tokens)",
       "bcrypt (password hashing)",
-
       "ShurjoPay (Payment Gateway)"
     ]
   },
   {
     "_id": 2,
-    "projectName": "Bike shop",
-    "liveLink": "https://assignment-12-cb947.web.app/",
-    "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
-    "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
-    "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
+    "projectName": "Bike House",
+    "liveLink": "https://bike-house-l2-as4.netlify.app/",
+    "clientRepo": "https://github.com/shaikot07/bike-house-client",
+    "serverRepo": "https://github.com/shaikot07/l-2-assignment-2-bike-store-server",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030443/bike_house_i4agpb.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030443/bike_house_i4agpb.png",
+    "projectOverview": "Bike House is a comprehensive e-commerce web application designed to facilitate the buying and selling of bikes through a clean, responsive, and user-friendly interface. Built using the MERN stack—React with TypeScript on the frontend and Node.js with Express.js on the backend—the application offers a seamless experience for both customers and administrators.\n\nThe platform features secure JWT-based authentication, allowing users to register and log in with hashed passwords. Role-based access control is implemented so that customers and admins have distinct dashboard capabilities. While customers can manage their orders and profile, admins have full control over users, products, and orders through complete CRUD operations.\n\nThe frontend allows users to search and filter bikes by brand, category, model, price range, and availability. Each product displays key details along with “View Details” and “Buy Now” options that direct users to a secure checkout page. The payment system is integrated with SurjoPay for smooth and reliable transactions.\n\nPublic routes include the homepage, all products page, individual product detail views, and an about page. Private routes, accessible only after login, include the checkout page and dashboards. The system ensures stock availability before processing orders and calculates the total price dynamically.\n\nDeployment is handled via Netlify for the frontend and Vercel for the backend, ensuring optimal performance and uptime. All sensitive data is securely managed using environment variables.\n\nPlanned future enhancements include a wishlist and cart feature, user reviews and ratings, order tracking, and email notifications for order updates.",
     "tools": [
-      "HTML",
-      "CSS",
-      "JavaScript",
       "React",
-      "Firebase",
-      "Express JS"
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Redux Toolkit",
+      "SurjoPay"
     ]
   },
- 
   {
     "_id": 3,
     "projectName": "Daily Pulse Newspaper",

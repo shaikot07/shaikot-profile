@@ -50,8 +50,8 @@ const Projects = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     <div className='flex items-center justify-center'>
                             <div className='space-y-4'>
-                                <h2 className='font-bold text-4xl'>Bike Shop</h2>
-                                <p className='!mb-4 leading-8'>Welcome to Fitnes Home, an responsive gym website where users can Explore gym features, contribute, and engage with a fitness home.</p>
+                                <h2 className='font-bold text-4xl'>Bike House</h2>
+                                <p className='!mb-4 leading-8'>Bike House is a full-featured bike e-commerce web application built with the MERN stack, enabling users to browse, filter, and purchase bikes with secure authentication and integrated SurjoPay payment. It includes role-based dashboards for customers and admins, and offers responsive design, seamless product management, and order handling.</p>
                                 <Link to={`/project/${2}`}><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one'> Case Study </motion.button></Link>
                             </div>
                         </div>
