@@ -10,7 +10,8 @@ const Test = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         console.log(e);
-        emailjs.sendForm('service_w1ylpqe', 'template_8pxe57h', form.current, 'strxoYY3V5-wTEJON')
+        alert("Form submitted");
+        emailjs.sendForm('service_9l2jgia', 'template_o0ho9hg', form.current, 'SClpYehcmihwlVrE7')
             //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
             .then((result) => {
                 console.log(result.text);
@@ -43,11 +44,11 @@ const Test = () => {
             <form ref={form} onSubmit={sendEmail} className='space-y-4 my-6'>
                 <div className='space-y-2'>
                     <label className='text-slate-300 font-semibold'>Name</label>
-                    <input className='my-inp' type="text" name="user_name" placeholder='Your name' />
+                    <input className='my-inp' type="text" name="name" placeholder='Your name' />
                 </div>
                 <div className='space-y-2'>
                     <label className='text-slate-300 font-semibold'>Email</label>
-                    <input className='my-inp' type="email" name="user_email" placeholder='Your email' required />
+                    <input className='my-inp' type="email" name="email" placeholder='Your email' required />
                 </div>
                 <div className='space-y-2'>
                     <label className='text-slate-300 font-semibold'>Message</label>

@@ -2,6 +2,7 @@
 import About from "./About/About";
 import Banner from "./Banner/Banner";
 import Projects from "./Projects/Projects";
+import Contact from "./contact/Contact";
 import Test from "./contact/Test";
 import Skillss from "./skills/Skillss";
 
@@ -14,7 +15,8 @@ const HomePage = () => {
                 <Skillss></Skillss>
                 
                 <Projects></Projects>
-                <Test></Test>
+                {/* <Test></Test> */}
+                <Contact></Contact>
                   
                 
             </div>
