@@ -3,8 +3,8 @@ import { FaGraduationCap } from "react-icons/fa6";
 const Education = () => {
   return (
     <div>
-      <section className="flex items-center justify-center gap-10">
-        <div className="backdrop-blur-md bg-[#15EBD1]/10 rounded-2xl w-full max-w-6xl shadow-2xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+      <section className="flex items-center justify-center mt-10">
+        <div className="backdrop-blur-md bg-[#15EBD1]/10 rounded-2xl w-full max-w-7xl shadow-2xl grid grid-cols-1 md:grid-cols-2 overflow-hidden gap-6">
           {/* Left Side - Icon and Title */}
           <div className="flex flex-col items-center justify-center text-black px-6">
             <FaGraduationCap className="w-20 h-20 mb-4 text-white" />
@@ -13,7 +13,7 @@ const Education = () => {
 
           {/* Right Side - Text Info */}
           <div className="bg-slate-900/60 text-white flex flex-col justify-center px-4 py-4 space-y-4 ">
-            <div className=" border border-[#11f5d4]/20 rounded-2xl p-6 shadow-xl text-white max-w-xl space-y-2 text-center">
+            <div className=" border border-[#11f5d4]/20 rounded-2xl p-6 shadow-xl text-white space-y-2 text-center">
               <h3 className="text-1xl font-bold text-pink-100">
                 Diploma in Computer Science & Technology
               </h3>
@@ -26,7 +26,7 @@ const Education = () => {
                 practical training with real-world lab work and projects.
               </p>
             </div>
-            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2">
+            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2 px-2">
               <h3 className="text-1xl font-bold text-purple-100">
                 Complete Web Development
               </h3>
