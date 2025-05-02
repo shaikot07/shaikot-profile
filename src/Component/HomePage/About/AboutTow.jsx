@@ -2,7 +2,7 @@ import SectionTitle from "../../../helping_component/SectionTitle";
 import myImg from "../../../assets/img/me.jpg"; // Adjust the path as necessary
 const AboutTow = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10" id='about'>
       <SectionTitle
         title={"About me"}
         subtitle={"Inspired by Innovation, Empowered by Imagination"}

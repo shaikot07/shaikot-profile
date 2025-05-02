@@ -13,7 +13,7 @@ const Education = () => {
 
           {/* Right Side - Text Info */}
           <div className="bg-slate-900/60 text-white flex flex-col justify-center px-4 py-4 space-y-4 ">
-            <div className=" border border-[#11f5d4]/20 rounded-2xl p-6 shadow-xl text-white space-y-2 text-center">
+            <div className=" border border-[#11f5d4]/20 rounded-2xl p-4 shadow-xl text-white space-y-2 text-center">
               <h3 className="text-1xl font-bold text-pink-100">
                 Diploma in Computer Science & Technology
               </h3>
@@ -26,7 +26,7 @@ const Education = () => {
                 practical training with real-world lab work and projects.
               </p>
             </div>
-            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2 px-2">
+            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2 px-2 p-4">
               <h3 className="text-1xl font-bold text-purple-100">
                 Complete Web Development
               </h3>
@@ -39,7 +39,7 @@ const Education = () => {
                 authentication and deployment.
               </p>
             </div>
-            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2">
+            <div className="text-center border border-[#11f5d4]/20 rounded-2xl py-2 space-y-2 p-4">
               <h3 className="text-1xl font-bold text-indigo-100">
                 Next Level Web Development
               </h3>

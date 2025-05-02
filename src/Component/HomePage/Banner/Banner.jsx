@@ -10,7 +10,7 @@ import Lottie from "lottie-react";
 
 const Banner = () => {
       return (
-            <div className="bg-cover bg-center text-white bg-fixed relative overflow-x-hidden bg-slate-900 bg-blend-overlay" style={{ backgroundImage: `url(${bgImg})` }}>
+            <div className="bg-cover bg-center text-white bg-fixed relative  bg-slate-900 bg-blend-overlay" style={{ backgroundImage: `url(${bgImg})` }}>
 
             <div className='h-screen grid grid-cols-1 lg:grid-cols-2 gap-5 mx-5 lg:mx-10 items-center justify-center'>
                 <div className='px-5 space-y-8'>
@@ -57,7 +57,7 @@ const Banner = () => {
                         </p>
                     </motion.div>
 
-                    <div className='flex gap-5'>
+                    <div className='flex gap-2 md:gap-5'>
                     <motion.div
                         variants={{
                             hidden: { opacity: 0, y: 75 },
