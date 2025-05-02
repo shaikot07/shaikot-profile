@@ -78,7 +78,7 @@ const NavBar_2 = () => {
                                     animate="visible"
                                     transition={{ duration: 0.5, delay: 1, type: "spring", stiffness: 100 }}
                               >
-                                    <Link to={'https://drive.google.com/uc?export=download&id=1OSAVTCJpPWk0nzlBNCFatPHA7BLV5f6e'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume <FaFileDownload className='inline' /></motion.button> </Link>
+                                    <Link to={'https://drive.google.com/uc?export=download&id=1jhP93ALLkDZQgD_HQS7_KWnGue0MJj5O'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume <FaFileDownload className='inline' /></motion.button> </Link>
 
 
                               </motion.div>

@@ -86,7 +86,7 @@
 //         className="space-y-4 my-6"
 //       >
 //         {/* Optional: Redirect to a thank-you page after submission */}
-//         <input type="hidden" name="_next" value="http://localhost:5173/thank-you" />
+//         <input type="hidden" name="_next" value="http://localhost:5173/" />
 //         <input type="hidden" name="_captcha" value="false" />
 
 //         <div className="space-y-2">
@@ -114,91 +114,74 @@
 
 
 
-import { ToastContainer, toast } from "react-toastify";
 import { useState } from "react";
-import Section_title from "../../../helping_component/SectionTitle";
-import "react-toastify/dist/ReactToastify.css";
+
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setIsError] = useState(false);
 
-  const handleChange = (e) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
-  };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const res = await fetch("https://formsubmit.co/saifulislamshaikat007@gmail.com", {
-      method: "POST",
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: new URLSearchParams(formData).toString(),
-    });
-
-    if (res.ok) {
-      toast.success("Thanks for your message!", {
-        position: "top-center",
-        autoClose: 2000,
-        theme: "dark",
+    const form = event.target;
+    const formData = new FormData(form);
+    
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
       });
-      setFormData({ name: "", email: "", message: "" });
-    } else {
-      toast.error("Failed to send. Try again!");
+
+      if (response.ok) {
+        setIsSuccess(true);
+        setIsError(false);
+        form.reset();  // Optional: reset the form after successful submission
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch (error) {
+      setIsSuccess(false);
+      setIsError(true);
+      form.reset(); // Optional: reset the form after error
     }
   };
 
   return (
-    <div className="my-container py-14" id="contact">
-      <Section_title title={"Reach Out"} subtitle={"Where Your Voice Matters"} />
+    <div className="" id="contact">
+     
 
-      <form onSubmit={handleSubmit} className="space-y-4 my-6">
+      {/* Success/Error message display */}
+      {isSuccess && <p className="text-green-500">Your message has been sent successfully!</p>}
+      {isError && <p className="text-green-500">Your message has been sent successfully!</p>}
+
+      <form
+        action="https://formspree.io/f/xldbjrwd"  // <-- Replace with your Formspree ID
+        method="POST"
+        className="space-y-4 my-6"
+        onSubmit={handleSubmit}
+      >
+        {/* Optional: Honeypot to prevent spam */}
+        <input type="text" name="_honey" style={{ display: "none" }} />
+
+        {/* Form Fields */}
         <div className="space-y-2">
           <label className="text-slate-300 font-semibold" htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            className="my-inp"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            placeholder="Name"
-          />
+          <input type="text" id="name" name="name" className="my-inp" placeholder="Name" required />
         </div>
 
         <div className="space-y-2">
           <label className="text-slate-300 font-semibold" htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            className="my-inp"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            placeholder="Your email"
-          />
+          <input type="email" id="email" name="email" className="my-inp" placeholder="Your email" required />
         </div>
 
         <div className="space-y-2">
           <label className="text-slate-300 font-semibold" htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            className="my-inp w-full h-[200px]"
-            value={formData.message}
-            onChange={handleChange}
-            required
-            placeholder="Your message"
-          />
+          <textarea id="message" name="message" className="my-inp w-full h-[200px]" placeholder="Your message" required></textarea>
         </div>
 
         <button type="submit" className="cmn-btn-one">Send</button>
       </form>
-
-      <ToastContainer />
     </div>
   );
 };

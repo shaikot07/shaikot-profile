@@ -78,8 +78,8 @@ const Projects = () => {
                         </div>
                         <div className='flex items-center justify-center'>
                             <div className='space-y-4'>
-                                <h2 className='font-bold text-4xl'> Car Hub </h2>
-                                <p className='!mb-4 leading-8'>Welcome to Car Hub , its a car selling website! This is a React-based project. here  client show different different brand car and knows car specification.</p>
+                                <h2 className='font-bold text-4xl'> Daily Pulse Newspaper </h2>
+                                <p className='!mb-4 leading-8'>This is a Daily Pulse Newspaper website where you can find Daily news find jobs, read article, and sign up or sign in to more news Details. I used React for the client side and Firebase and Express for the server side in this project.</p>
                                 <Link to={`/project/${3}`}><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className='cmn-btn-one'> Case Study </motion.button></Link>
                             </div>
                         </div>

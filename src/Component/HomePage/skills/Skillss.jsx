@@ -91,11 +91,11 @@ import SectionTitle from "../../../helping_component/SectionTitle";
 
 const Skillss = () => {
   const skills = [
-    { src: js, alt: "javascript" },
+    { src: nextjs, alt: "next.js" },
     { src: typeScript, alt: "typeScript" },
     { src: reactl, alt: "React" },
     { src: redux, alt: "Redux" },
-    { src: nextjs, alt: "next.js" },
+    { src: js, alt: "javascript" },
     { src: node, alt: "Node.js" },
     { src: express, alt: "Express" },
     { src: tailwind, alt: "Tailwind" },
@@ -114,7 +114,7 @@ const Skillss = () => {
     { src: figma, alt: "figma" },
   ];
   return (
-    <div className="my-container py-14" id="skills">
+    <div className="my-container py-14 mt-10" id="skills">
       <SectionTitle
         title={"skills"}
         subtitle={"Cutting-Edge Web Development Expertise"}

@@ -4,6 +4,7 @@ import bgImg from '../../../assets/img/Pt-Bg.jpg'
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBookOpenReader } from "react-icons/fa6";
 import bannerLottie from '../../../../public/lottieAnimation/animation.json'
 import Lottie from "lottie-react";
 
@@ -22,7 +23,7 @@ const Banner = () => {
                         whileInView="visible"
                         transition={{ delay: 0.5, type: "spring", stiffness: 70 }}
                     >
-                        <h2 className='font-bold text-3xl lg:text-4xl xl:text-5xl'>Hello, I'm <span className='text-[#15EBD1]'>Saiful Islam Shaikot</span></h2>
+                        <h2 className='font-bold text-3xl lg:text-4xl xl:text-5xl'>Hello, I&apos;m <span className='text-[#15EBD1]'>Saiful Islam Shaikot</span></h2>
                     </motion.div>
 
                     <motion.div
@@ -56,6 +57,7 @@ const Banner = () => {
                         </p>
                     </motion.div>
 
+                    <div className='flex gap-5'>
                     <motion.div
                         variants={{
                             hidden: { opacity: 0, y: 75 },
@@ -65,8 +67,21 @@ const Banner = () => {
                         whileInView="visible"
                         transition={{ delay: 0.8, type: "spring", stiffness: 70 }}
                     >
-                        <Link to={'https://drive.google.com/uc?export=download&id=1OSAVTCJpPWk0nzlBNCFatPHA7BLV5f6e'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume <FaFileDownload className='inline' /></motion.button> </Link>
+                        <Link to={'https://drive.google.com/uc?export=download&id=1jhP93ALLkDZQgD_HQS7_KWnGue0MJj5O'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> Resume <FaFileDownload className='inline' /></motion.button> </Link>
                     </motion.div>
+                    {/* preview  button */}
+                    <motion.div
+                        variants={{
+                            hidden: { opacity: 0, y: 75 },
+                            visible: { opacity: 1, y: 0 }
+                        }}
+                        initial="hidden"
+                        whileInView="visible"
+                        transition={{ delay: 0.8, type: "spring", stiffness: 70 }}
+                    >
+                        <Link to={'https://drive.google.com/file/d/1jhP93ALLkDZQgD_HQS7_KWnGue0MJj5O/view?usp=sharing'} target="_blank"><motion.button whileHover={{ scale: 1.1, transition: { duration: .3 } }} whileTap={{ scale: 0.9 }} className={'cmn-btn-one'}> View Resume <FaBookOpenReader className='inline' /> </motion.button> </Link>
+                    </motion.div>
+                    </div>
 
                 </div>
 
