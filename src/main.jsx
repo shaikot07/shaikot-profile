@@ -8,6 +8,7 @@ import {
 import Layout from './LayOut/Layout.jsx';
 import HomePage from './Component/HomePage/HomePage.jsx';
 import ProjectDatiles from './Component/ProjectDatiles/ProjectDatiles.jsx';
+import AllProject from './Component/AllProject/AllProject.jsx';
 
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<HomePage></HomePage>
+      },
+      {
+        path:'/allProject',
+        element:<AllProject></AllProject>
       },
       {
         path: '/project/:id',

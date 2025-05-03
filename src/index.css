@@ -53,7 +53,7 @@ background-color: transparent;
 }
 
 .cmn-btn-one{
-  @apply bg-[#1F756A] px-5 py-2 hover:bg-[#11f5d4] rounded  text-slate-50 font-bold
+  @apply bg-[#1F756A] px-5 py-2 hover:bg-[#11f5d4] rounded  text-slate-50 font-bold hover:text-black
  
 }
 .cmn-btn-one-outline{

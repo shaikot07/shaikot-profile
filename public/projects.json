@@ -62,5 +62,94 @@
       "Firebase",
       "Express JS"
     ]
+  },
+  {
+    "_id": 4,
+    "projectName": "FitnesHome",
+    "liveLink": "https://assignment-11-clint-side-8097e.web.app/",
+    "clientRepo": "https://github.com/shaikot07/fitness-Home-client-side",
+    "serverRepo": "https://github.com/shaikot07/fitness-Home-server-side",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746272592/fitneshome_uddbac.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746272592/fitneshome_uddbac.png",
+    "projectOverview": "FitnesHome is a full-stack, responsive web application that allows users to add, manage, and promote their own fitness services. Users can create new services, view a personalized list of their added services, and perform update or delete operations as needed. The application includes protected routes, ensuring that only authenticated users can access certain pages, with secure login implemented using JSON Web Tokens (JWT). The home page is fully responsive across all devices, offering a smooth user experience. Additionally, the site features engaging animations through lottie-react, and a fully functional contact form integrated with EmailJS, enabling real-time communication. FitnesHome combines user-friendly design with essential functionality to support the fitness community online.",
+    "tools": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "JWT (JSON Web Token)",
+      "Lottie-react",
+      "EmailJS",
+      "React Router",
+      "Private Routes",
+      "Responsive Design"
+    ]
+  },
+  {
+    "_id": 5,
+    "projectName": "My Task Planner ",
+    "liveLink": "https://new-task-managment-app.netlify.app/",
+    "clientRepo": "https://github.com/shaikot07/my-task-management-clint-side",
+    "serverRepo": "https://github.com/shaikot07/my-task-management-server-side-",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273802/task_vloiq6.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273802/task_vloiq6.png",
+    "projectOverview": "The Task Management App is a responsive and user-friendly application built to help users efficiently manage their daily tasks. Users can add, update, and delete tasks with ease through an intuitive interface. The application features real-time data updates and organizes tasks based on their status or priority. Private routes are implemented to ensure only authenticated users can access task-related features, and secure login is managed using Firebase Authentication. The app provides error handling and user feedback for better interaction, while maintaining full responsiveness across mobile, tablet, and desktop devices.",
+    "tools": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Firebase Authentication",
+      "React Router",
+      "Private Routes",
+      "Responsive Design",
+      "CRUD Operations",
+      "Real-Time UI Updates"
+    ]
+  },
+  {
+    "_id": 6,
+    "projectName": "CarHub ",
+    "liveLink": "https://assignment-10-clint-side.netlify.app/",
+    "clientRepo": "https://github.com/shaikot07/car-hub-client-side",
+    "serverRepo": "https://github.com/shaikot07/my-task-management-server-side-",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273113/carhub_vxl58u.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273113/carhub_vxl58u.png",
+    "projectOverview": "CarHub is a responsive web application designed for managing and purchasing cars online. The site features secure user authentication using Firebase, allowing users to register new accounts and log in with valid email and password credentials. Incorrect login attempts are blocked to ensure security. Private routes are implemented to restrict access to certain pages unless the user is logged in. The entire interface is fully mobile-responsive for a smooth experience across all devices. Users can browse cars and add them to their cart, with selected products saved to a MongoDB database. The  page displays all the products the user has added, providing a streamlined and personalized shopping experience.",
+    "tools": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Firebase Authentication",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "React Router",
+      "Private Routes",
+      "Responsive Design"
+    ]
+  },
+
+  {
+    "_id": 7,
+    "projectName": "Event-management ",
+    "liveLink": "https://entertainment-management-ph-9.netlify.app/",
+    "clientRepo": "https://github.com/shaikot07/Entertainment--Event-management",
+    "serverRepo": "https://github.com/shaikot07/Entertainment--Event-management",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273423/even_aylfem.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273423/even_aylfem.png",
+    "projectOverview": "This project is a fully responsive web application featuring a clean and modern UI optimized for both mobile and tablet devices. It includes a responsive navigation bar that adjusts seamlessly across screen sizes. Data for cards is loaded dynamically, offering a scalable and interactive experience. Private routes are implemented to ensure that only authenticated users can access protected pages. The login system includes password verification with clear error feedback displayed in the UI for invalid credentials. The app is designed with user experience and security in mind, combining responsive design with authentication logic for a robust frontend experience.",
+    "tools": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Firebase Authentication",
+      "React Router",
+      "Private Routes",
+      "Responsive Design",
+      "Dynamic Data Loading",
+      "Form Validation & Error Handling"
+    ]
   }
 ]

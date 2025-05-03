@@ -27,8 +27,9 @@ const NavBar_2 = () => {
             <li> <Link className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#15EBD1] hover:border-[#15EBD1] hover:border-b-2 transition duration-300 focus:!text-white" to={'/'}>Home</Link> </li>
             <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#about">About</a></li>
             <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#skills">Skills</a></li>
-            <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#projects">Projects</a></li>
+            <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#projects">Project</a></li>
             <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="#contact">Contact</a></li>
+            <li><a className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300" href="/allProject">All Projects</a></li>
 
       </>
       return (
