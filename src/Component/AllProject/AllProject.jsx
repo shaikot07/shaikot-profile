@@ -1,4 +1,4 @@
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -6,6 +6,7 @@ const AllProject = () => {
   const [data, setData] = useState([]);
   console.log(data);
   const [isLoading, setIsLoading] = useState(true);
+
 
   useEffect(() => {
     fetch("/projects.json")
@@ -15,19 +16,25 @@ const AllProject = () => {
         setIsLoading(false);
       });
   }, []);
+
+
   if (isLoading) {
     return (
-        <div className="min-h-screen flex justify-center items-center bg-slate-900">
+      <div className="min-h-screen flex justify-center items-center bg-slate-900">
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 border-4 border-[#1F756A] border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-white text-lg font-medium">Please Wait Loading projects...</p>
+          <div>
+            <p className="text-white text-lg font-medium">
+              Please Wait Loading projects...
+            </p>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="pt-28 pb-16 px-4 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+    <div className="pt-28 pb-16 px-4 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto mt-14">
       {data.map((project) => (
         <div
           key={project?._id}
@@ -51,11 +58,10 @@ const AllProject = () => {
           {/* Button */}
           <div className="p-4">
             <Link to={`/project/${project?._id}`}>
-            <button className="w-full cmn-btn-one font-medium py-2 rounded-lg transition duration-200">
-              View Project
-            </button>
+              <button className="w-full cmn-btn-one font-medium py-2 rounded-lg transition duration-200">
+                View Project
+              </button>
             </Link>
-            
           </div>
         </div>
       ))}

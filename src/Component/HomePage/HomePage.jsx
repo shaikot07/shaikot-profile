@@ -1,12 +1,12 @@
 
-import About from "./About/About";
+// import About from "./About/About";
 import AboutTow from "./About/AboutTow";
 import Banner from "./Banner/Banner";
 import CanHelp from "./CanHelp/CanHelp";
 import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
-import Contact from "./contact/Contact";
-import Test from "./contact/Test";
+// import Contact from "./contact/Contact";
+// import Test from "./contact/Test";
 import Skillss from "./skills/Skillss";
 
 

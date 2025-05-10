@@ -7,21 +7,37 @@
     "serverRepo": "https://github.com/shaikot07/Basakhuji-server",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
-    "projectOverview": "BashaKhuji.com is a complete, role-based rental housing platform designed to bridge the gap between tenants and landlords efficiently and securely. Built using Next.js, TypeScript, Node.js, and MongoDB, the platform delivers an optimized, scalable, and user-friendly experience tailored to each role — Tenant, Landlord, and Admin — through customized dashboards and powerful features. The website allows landlords to easily post detailed property listings, and tenants to search for rental houses using smart filters like location, rent, and number of bedrooms. Rental requests, approvals, and payments are streamlined in one system, enhancing the rental process for both parties. Once a rental request is approved by the landlord, a secure payment gateway ( ShurjoPay) is made available for the tenant to finalize the rental. Email notifications keep all users informed of critical updates in real-time. With its strong role-based authentication system using JWT and bcrypt for secure password storage, BashaKhuji.com ensures user data protection and access control across all modules. The application is optimized for high performance, SEO-friendly rendering, and is fully responsive across all devices. The backend is structured with RESTful APIs, making it scalable and easy to extend with new features in the future. Clean and modular code practices were followed to maintain clarity, reusability, and future growth. Overall, BashaKhuji.com delivers a professional-grade, end-to-end rental solution combining modern web development practices with a strong focus on usability, security, and performance.",
+    "projectOverview": [
+  "BashaKhuji.com is a complete, role-based rental housing platform connecting tenants and landlords efficiently and securely.",
+  "Built with Next.js, TypeScript, Node.js, and MongoDB for scalability and performance.",
+  "Tailored dashboards and features for three roles: Tenant, Landlord, and Admin.",
+  "Landlords can easily post detailed property listings.",
+  "Tenants can search rentals using smart filters (location, rent, number of bedrooms).",
+  "Rental requests, approvals, and payments are managed in one unified system.",
+  "Secure payment gateway (ShurjoPay) integrated for finalizing rentals.",
+  "Email notifications keep users informed of real-time updates.",
+  "Role-based authentication with JWT and bcrypt ensures secure access and password protection.",
+  "Fully responsive UI optimized for mobile, tablet, and desktop.",
+  "SEO-friendly and high-performance rendering using Next.js.",
+  "RESTful APIs support scalability and future extensibility.",
+  "Clean, modular codebase for reusability and maintainability.",
+  "End-to-end solution with a strong focus on usability, security, and performance."
+],
     "tools": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "Firebase",
-      "Express.js",
       "Next.js",
-      "TypeScript",
+     "TypeScript",
       "Node.js",
+      "Express.js",
       "MongoDB",
+      "Tailwind CSS",
+      "shadcn/ui",
       "JWT (JSON Web Tokens)",
       "bcrypt (password hashing)",
-      "ShurjoPay (Payment Gateway)"
+      "ShurjoPay (Payment Gateway)",
+      "Express.js",
+      "Next.js",
+      "HTML",
+      "CSS"
     ]
   },
   {
@@ -130,7 +146,6 @@
       "Responsive Design"
     ]
   },
-
   {
     "_id": 7,
     "projectName": "Event-management ",
