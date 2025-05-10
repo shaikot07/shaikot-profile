@@ -32,7 +32,7 @@ const ProjectDatiles = () => {
   return (
     <div className="pb-14 overflow-x-hidden">
       <div
-        className="h-[70vh] flex items-center justify-center bg-slate-800 bg-blend-overlay bg-center bg-cover"
+        className="h-[70vh] flex items-center justify-center bg-slate-900 bg-blend-overlay bg-center bg-cover"
         style={{ backgroundImage: `url(${project.projectBanner})` }}
       >
         <div className="text-center font-semibold space-y-6 w-5/6 md:4/6 xl:w-3/6 mx-auto">

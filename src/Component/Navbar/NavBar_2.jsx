@@ -42,7 +42,7 @@ const NavBar_2 = () => {
                   transition={{ duration: 0.5, delay: 0.5, type: "spring", stiffness: 100 }}
                   className="fixed inset-x-0 z-40"
             >
-                  <div className={`navbar sm:w-[640px] md:w-full shadow-lg transition   ${isTop ? 'bg-[#02182315]' : 'bg-[#0218238d]'}`}>
+                  <div className={`navbar sm:w-[640px] md:w-full px-6 md:px-20 shadow-lg transition   ${isTop ? 'bg-[#02182315]' : 'bg-[#0218238d]'}`}>
                         <div className="navbar-start">
                               <div className="dropdown">
                                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

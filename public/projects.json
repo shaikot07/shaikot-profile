@@ -48,16 +48,31 @@
     "serverRepo": "https://github.com/shaikot07/l-2-assignment-2-bike-store-server",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030443/bike_house_i4agpb.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030443/bike_house_i4agpb.png",
-    "projectOverview": "Bike House is a comprehensive e-commerce web application designed to facilitate the buying and selling of bikes through a clean, responsive, and user-friendly interface. Built using the MERN stack—React with TypeScript on the frontend and Node.js with Express.js on the backend—the application offers a seamless experience for both customers and administrators.\n\nThe platform features secure JWT-based authentication, allowing users to register and log in with hashed passwords. Role-based access control is implemented so that customers and admins have distinct dashboard capabilities. While customers can manage their orders and profile, admins have full control over users, products, and orders through complete CRUD operations.\n\nThe frontend allows users to search and filter bikes by brand, category, model, price range, and availability. Each product displays key details along with “View Details” and “Buy Now” options that direct users to a secure checkout page. The payment system is integrated with SurjoPay for smooth and reliable transactions.\n\nPublic routes include the homepage, all products page, individual product detail views, and an about page. Private routes, accessible only after login, include the checkout page and dashboards. The system ensures stock availability before processing orders and calculates the total price dynamically.\n\nDeployment is handled via Netlify for the frontend and Vercel for the backend, ensuring optimal performance and uptime. All sensitive data is securely managed using environment variables.\n\nPlanned future enhancements include a wishlist and cart feature, user reviews and ratings, order tracking, and email notifications for order updates.",
+    "projectOverview": [
+  "Bike House is a comprehensive e-commerce web application for buying and selling bikes through a clean, responsive, and user-friendly interface.",
+  "Built using the MERN stack: React with TypeScript on the frontend and Node.js with Express.js on the backend.",
+  "Secure JWT-based authentication allows users to register and log in with hashed passwords.",
+  "Role-based access control ensures separate dashboard experiences for customers and admins.",
+  "Customers can manage their orders and profiles; admins can perform full CRUD operations on users, products, and orders.",
+  "Users can search and filter bikes by brand, category, model, price range, and availability.",
+  "Each product displays key details along with 'View Details' and 'Buy Now' options linking to a secure checkout page.",
+  "Integrated with SurjoPay for smooth and reliable payment transactions.",
+  "Public routes include homepage, products listing, individual product details, and an about page.",
+  "Private routes include the checkout page and user/admin dashboards, accessible only after login.",
+  "The system checks stock availability before processing orders and calculates total price dynamically.",
+  "Frontend deployed on Netlify; backend deployed on Vercel for optimal performance and uptime.",
+  "Environment variables are used to securely manage sensitive data.",
+  "Planned future features: wishlist, cart, user reviews and ratings, order tracking, and email notifications for updates."
+],
     "tools": [
       "React",
       "TypeScript",
-      "Tailwind CSS",
       "Node.js",
       "Express.js",
       "MongoDB",
       "JWT",
       "Redux Toolkit",
+      "Tailwind CSS",
       "SurjoPay"
     ]
   },
@@ -69,7 +84,16 @@
     "serverRepo": "https://github.com/shaikot07/Daily-Pulse-server-side",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746032250/S-02_n4kijl.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746032250/S-02_n4kijl.png",
-    "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
+   "projectOverview": [
+  "Daily Pulse is a modern news platform built using React for a dynamic and user-friendly frontend experience.",
+  "The backend leverages Firebase and Express to ensure efficient server-side operations.",
+  "Users can explore a wide variety of news categories and engage with a diverse community of readers.",
+  "Registered users can contribute by posting their own articles, fostering a community-driven platform.",
+  "Each submitted article is reviewed and approved by an admin team to maintain content quality.",
+  "A premium membership option is available, offering exclusive content, early access to breaking news, and an ad-free reading experience.",
+  "Daily Pulse is more than just a news site—it's an interactive community where users contribute and shape the conversation.",
+  "Designed to keep users informed and connected with up-to-date, high-quality news content."
+],
     "tools": [
       "HTML",
       "CSS",
@@ -87,7 +111,16 @@
     "serverRepo": "https://github.com/shaikot07/fitness-Home-server-side",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746272592/fitneshome_uddbac.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746272592/fitneshome_uddbac.png",
-    "projectOverview": "FitnesHome is a full-stack, responsive web application that allows users to add, manage, and promote their own fitness services. Users can create new services, view a personalized list of their added services, and perform update or delete operations as needed. The application includes protected routes, ensuring that only authenticated users can access certain pages, with secure login implemented using JSON Web Tokens (JWT). The home page is fully responsive across all devices, offering a smooth user experience. Additionally, the site features engaging animations through lottie-react, and a fully functional contact form integrated with EmailJS, enabling real-time communication. FitnesHome combines user-friendly design with essential functionality to support the fitness community online.",
+    "projectOverview": [
+  "FitnesHome is a full-stack, responsive web application designed for users to manage and promote their own fitness services.",
+  "Users can create, view, update, and delete personalized fitness service listings.",
+  "Protected routes ensure only authenticated users can access sensitive pages.",
+  "Secure login and authentication are implemented using JSON Web Tokens (JWT).",
+  "The home page is optimized for all device sizes, delivering a seamless user experience.",
+  "Lottie-react is used to add smooth and engaging animations throughout the interface.",
+  "A fully functional contact form, powered by EmailJS, allows real-time user communication.",
+  "FitnesHome blends intuitive design with powerful features to support and grow the online fitness community."
+],
     "tools": [
       "React",
       "Tailwind CSS",
@@ -111,7 +144,16 @@
     "serverRepo": "https://github.com/shaikot07/my-task-management-server-side-",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273802/task_vloiq6.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273802/task_vloiq6.png",
-    "projectOverview": "The Task Management App is a responsive and user-friendly application built to help users efficiently manage their daily tasks. Users can add, update, and delete tasks with ease through an intuitive interface. The application features real-time data updates and organizes tasks based on their status or priority. Private routes are implemented to ensure only authenticated users can access task-related features, and secure login is managed using Firebase Authentication. The app provides error handling and user feedback for better interaction, while maintaining full responsiveness across mobile, tablet, and desktop devices.",
+   "projectOverview": [
+  "The Task Management App is a responsive and user-friendly application designed to help users efficiently manage their daily tasks.",
+  "Users can add, update, and delete tasks through an intuitive and simple interface.",
+  "Tasks are organized based on their status or priority for better clarity and focus.",
+  "The app supports real-time data updates to reflect changes instantly.",
+  "Private routes ensure that only authenticated users can access and manage tasks.",
+  "Secure login and authentication are handled via Firebase Authentication.",
+  "Comprehensive error handling and user feedback enhance the user experience.",
+  "Fully responsive design ensures seamless use across mobile, tablet, and desktop devices."
+],
     "tools": [
       "React",
       "Tailwind CSS",
@@ -132,7 +174,16 @@
     "serverRepo": "https://github.com/shaikot07/my-task-management-server-side-",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273113/carhub_vxl58u.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273113/carhub_vxl58u.png",
-    "projectOverview": "CarHub is a responsive web application designed for managing and purchasing cars online. The site features secure user authentication using Firebase, allowing users to register new accounts and log in with valid email and password credentials. Incorrect login attempts are blocked to ensure security. Private routes are implemented to restrict access to certain pages unless the user is logged in. The entire interface is fully mobile-responsive for a smooth experience across all devices. Users can browse cars and add them to their cart, with selected products saved to a MongoDB database. The  page displays all the products the user has added, providing a streamlined and personalized shopping experience.",
+    "projectOverview": [
+  "CarHub is a responsive web application designed for managing and purchasing cars online.",
+  "Secure user authentication is implemented using Firebase, allowing account registration and login via email and password.",
+  "Incorrect login attempts are blocked to enhance user account security.",
+  "Private routes are used to restrict access to certain pages unless the user is authenticated.",
+  "The entire user interface is fully mobile-responsive, ensuring smooth performance across all device types.",
+  "Users can browse available cars and add them to their cart for purchase consideration.",
+  "Selected products are saved to a MongoDB database to persist user selections.",
+  "A dedicated cart page displays all products the user has added, offering a personalized and streamlined shopping experience."
+],
     "tools": [
       "React",
       "Tailwind CSS",
@@ -154,7 +205,15 @@
     "serverRepo": "https://github.com/shaikot07/Entertainment--Event-management",
     "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273423/even_aylfem.png",
     "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746273423/even_aylfem.png",
-    "projectOverview": "This project is a fully responsive web application featuring a clean and modern UI optimized for both mobile and tablet devices. It includes a responsive navigation bar that adjusts seamlessly across screen sizes. Data for cards is loaded dynamically, offering a scalable and interactive experience. Private routes are implemented to ensure that only authenticated users can access protected pages. The login system includes password verification with clear error feedback displayed in the UI for invalid credentials. The app is designed with user experience and security in mind, combining responsive design with authentication logic for a robust frontend experience.",
+  "projectOverview": [
+  "Fully responsive web application with a clean and modern UI optimized for mobile and tablet devices.",
+  "Responsive navigation bar that adjusts seamlessly across different screen sizes.",
+  "Dynamically loaded card data for a scalable and interactive user experience.",
+  "Private routes ensure that only authenticated users can access protected pages.",
+  "Login system includes password verification and displays clear error messages for invalid credentials.",
+  "Designed with a strong focus on user experience and security.",
+  "Combines responsive design with authentication logic to deliver a robust frontend experience."
+],
     "tools": [
       "React",
       "Tailwind CSS",
