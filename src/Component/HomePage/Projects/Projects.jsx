@@ -1,6 +1,6 @@
 
 import dailyPluse from '../../../assets/img/S-02.png'
-import bashaKhuji from '../../../assets/img/S-01.png'
+import bashaKhuji from '../../../assets/img/basanew.png'
 // import bikeshop from '../../../assets/img/S-01.png'
 import bikeshop from '../../../assets/img/S-03.png'
 import { motion } from "framer-motion";
