@@ -157,6 +157,17 @@ const ProjectDatiles = () => {
             </ul>
           )}
         </div>
+        {Array.isArray(project.futurePlans) &&
+          project.futurePlans.length > 0 && (
+            <div className="space-y-8">
+              <h2 className="cmn-title-one">Future plan</h2>
+              <ul className="list-disc pl-6 space-y-2 text-slate-300">
+                {project.futurePlans.map((point, idx) => (
+                  <li key={idx}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
 
         <div className="space-y-8 !mb-16">
           <h2 className="cmn-title-one">Tools Used</h2>

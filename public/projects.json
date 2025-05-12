@@ -5,8 +5,8 @@
     "liveLink": "https://basa-khuji-next-client.vercel.app/",
     "clientRepo": "https://github.com/shaikot07/BasaKhuji-next-client",
     "serverRepo": "https://github.com/shaikot07/Basakhuji-server",
-    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
-    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1746030129/basha_khuji_full_fubcmr.png",
+    "projectImg": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1747075652/basa-yy_hgvagk.png",
+    "projectBanner": "https://res.cloudinary.com/dy0b6hvog/image/upload/v1747075652/basa-yy_hgvagk.png",
     "projectOverview": [
   "BashaKhuji.com is a complete, role-based rental housing platform connecting tenants and landlords efficiently and securely.",
   "Built with Next.js, TypeScript, Node.js, and MongoDB for scalability and performance.",
@@ -22,6 +22,12 @@
   "RESTful APIs support scalability and future extensibility.",
   "Clean, modular codebase for reusability and maintainability.",
   "End-to-end solution with a strong focus on usability, security, and performance."
+],
+"futurePlans": [
+  "Implement a wishlist feature for users to save favorite properties.",
+  "Integrate real-time chat between tenants and landlords for better communication.",
+  "Introduce map-based search with location pins and neighborhood insights.",
+  "Add tenant and landlord review/rating systems for trust and transparency."
 ],
     "tools": [
       "Next.js",
@@ -64,6 +70,14 @@
   "Environment variables are used to securely manage sensitive data.",
   "Planned future features: wishlist, cart, user reviews and ratings, order tracking, and email notifications for updates."
 ],
+"futurePlans": [
+  "Implement a wishlist feature for users to save bikes they are interested in.",
+  "Add a shopping cart system to allow users to add multiple bikes before checkout.",
+  "Introduce user reviews and rating functionality on individual bike products.",
+  "Enable real-time order tracking from checkout to delivery.",
+  "Send email notifications for order confirmations, status updates, and promotions."
+
+],
     "tools": [
       "React",
       "TypeScript",
@@ -93,6 +107,13 @@
   "A premium membership option is available, offering exclusive content, early access to breaking news, and an ad-free reading experience.",
   "Daily Pulse is more than just a news site—it's an interactive community where users contribute and shape the conversation.",
   "Designed to keep users informed and connected with up-to-date, high-quality news content."
+],
+"futurePlans": [
+  "Introduce a personalized news feed based on user reading preferences and history.",
+  "Implement advanced search and filtering across all articles and categories.",
+  "Enable real-time comment threads and live discussion rooms for breaking news.",
+  "Add multi-language support to serve a broader global audience."
+
 ],
     "tools": [
       "HTML",
