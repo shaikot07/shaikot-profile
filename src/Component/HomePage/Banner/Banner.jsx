@@ -102,7 +102,7 @@ const Banner = () => {
                 className='w-auto h-auto flex flex-col gap-5 text-xl absolute right-5 top-1/2 -translate-x-1/2 bg-[#1F756A] p-3'
             >
                 <Link className='inline-block transition hover:scale-125' to={'https://www.facebook.com/profile.php?id=100015322578979'} target='_blank'><FaFacebook></FaFacebook></Link>
-                <Link className='inline-block transition hover:scale-125' to={'https://www.linkedin.com/in/saiful-islam-shaikot-8839ba181/'} target='_blank'><FaLinkedin></FaLinkedin></Link>
+                <Link className='inline-block transition hover:scale-125' to={'https://www.linkedin.com/in/saiful-islam-shaikot/'} target='_blank'><FaLinkedin></FaLinkedin></Link>
                 <Link className='inline-block transition hover:scale-125' to={'https://github.com/shaikot07'} target='_blank'><FaGithub></FaGithub></Link>
             </motion.div>
 
